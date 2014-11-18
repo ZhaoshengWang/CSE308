@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/servlet/EditCouseServlet.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/web/home.jsp</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/entity/Users.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/servlet/EditAssignmentServlet.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/entity/Course.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/web/index.jsp</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/entity/SubmissionsPK.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/servlet/CreateUserServlet.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/servlet/CreateCourseServlet.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/servlet/DeleteCourseServlet.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/entity/Assignment.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/servlet/CreateAssignmentServlet.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/servlet/LoginServlet.java</file>
+            <file>file:/C:/Users/Mike%20Wang/Desktop/cse308finalproject/CSE308/src/java/entity/Submissions.java</file>
+        </group>
+    </open-files>
+</project-private>

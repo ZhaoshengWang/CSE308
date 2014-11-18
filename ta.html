@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/default.css">
+        <style>
+            body {margin: 0; width: 100%; height: 100%; overflow:hidden;}
+            #main {margin: 0; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; height: 100%; width: 100%;}
+            #side-bar {position: fixed; background-color: #490026; width: 10em; left: 0; top: 0; bottom: 0; color: #c7c3c3;
+                       box-shadow: inset -5px 0 5px #000; overflow: auto;}
+            #logo-container {width: 100%; height: 3em; text-align: center; border-bottom: #fff 1px solid; padding-top: 1em;}
+            #logo {color: #fff; text-decoration: none; font-size: 1.5em;}
+            #content-nav {width: 100%; height: 30em;} /**color: #616263;*/
+            #settings-nav {width: 100%; height: 5em;}
+            .nav-list {list-style: none; margin: 0; padding: 0;}
+            .nav-list li {margin: 0; padding: .5em 1em; width: auto; cursor: pointer; text-align: center; font-size: .8em; font-weight: bold; }
+            .nav-list li:hover {background-color: #fff; color: #000;}
+            #content-div {position: fixed; background-color: #f4f4f4; left:0; top:0; margin-left: 10em; width: 100%; height: 100%;}
+            #status-div {position:relative; left: 0; top: 0; background: linear-gradient(to left, #f40909, #490026); width: 100%; height: 4em; color: #fff;}
+            #content {overflow: auto;}
+        </style>
+        <script type="text/javascript" src="script/jquery.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $("#course-list li").click(function () {
+                    contentChange($(this));
+                });
+                $("#logout-button").click(function () {
+                    window.location.href = "home.html";
+                });
+                $("#settings-button").click(function () {
+                    $("#status-div").html("Settings");
+                    $("#content").html("Change settings");
+                });
+            });
+            function contentChange(ref) {
+                $("#content").html(ref.html() + "'s assignment list");
+                $("#status-div").html("Assignments and Grades");
+            }
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="side-bar">
+                <div id="logo-container"><a href="home.html" id="logo">GradeQuest</a></div>
+                <div id="content-nav">
+                    <label style="display: block; text-align: center; font-style: italic; font-weight: bold; font-size: 1.2em">Assisting</label>
+                    <ul id="course-list" class="nav-list">
+                        <li>CSE 308</li>
+                        <li>CSE 309</li>
+                        <li>CSE 310</li>
+                        <li>CSE 311</li>
+                    </ul></div>
+                <div id="settings-nav">
+                    <ul class="nav-list">
+                        <li id="settings-button">Settings</li>
+                        <li id="logout-button">Logout</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content-div">
+                <div id="status-div">
+                    Courses
+                </div>
+                <div id="content">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
